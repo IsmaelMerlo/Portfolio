@@ -5,6 +5,7 @@ body {
 p1 {
     font-weight: bold;
 }
+
 p2 {
     border: solid 3px;
     background-color: rgb(189, 123, 1);
@@ -24,4 +25,5 @@ img {
 }
 
 .red {
-    background-color= red}
+    background-color= red;
+}
