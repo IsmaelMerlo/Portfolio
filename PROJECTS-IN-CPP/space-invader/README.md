@@ -2,7 +2,7 @@
 
 [![forthebadge](http://forthebadge.com/images/badges/built-with-love.svg)](http://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/made-with-c-plus-plus.svg)](https://forthebadge.com)
 
-# English
+# - English
 
 Get ready to face endless hordes of aliens in this fan game of one of the most influential games from the early days of the industry, Space Invaders.
 
