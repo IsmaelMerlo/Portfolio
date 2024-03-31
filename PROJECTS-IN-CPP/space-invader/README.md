@@ -2,7 +2,7 @@
 
 [![forthebadge](http://forthebadge.com/images/badges/built-with-love.svg)](http://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/made-with-c-plus-plus.svg)](https://forthebadge.com)
 
-## English
+# English
 
 Get ready to face endless hordes of aliens in this fan game of one of the most influential games from the early days of the industry, Space Invaders.
 
@@ -28,7 +28,7 @@ Use left and right arrow keys to move your spaceship and press space bar to shoo
 
 Find me on [LinkedIn](https://www.linkedin.com/in/ismael-merlo-33a34b257) !
 
-## Español
+# - Español
 
 Prepárate para enfrentarte a interminables hordas de alienígenas en este fan game de uno de los juegos más influyentes de principios de la industria, Space Invaders.
 
