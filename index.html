@@ -1,0 +1,252 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="icon" type="image/jpeg" href="mi_putisimo_careto_chaval.jpg">
+  <title>Ismael Merlo - Game Developer</title>
+  <!-- Que haces aqui chismoso? fuera bazofia! -->
+  <style>
+#perfil {
+  background-image: url('elavila.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+    :root{
+      --bg:#1f1305;
+      --card:rgba(0,0,0,0.55);
+      --accent:#f97316;
+      --muted:#e5e5e5;
+    }
+    *{box-sizing:border-box;margin:0;padding:0}
+    html,body{height:100%;font-family:Inter,ui-sans-serif,system-ui,Segoe UI,Roboto,"Helvetica Neue",Arial;color:#fff;background:var(--bg);}
+    body{position:relative;overflow-y:auto;scroll-behavior:smooth;}
+
+    video.bg-video{position:fixed;top:0;left:0;width:100%;height:100%;object-fit:cover;z-index:-1;}
+
+    nav{position:fixed;top:18px;left:18px;z-index:40;background:rgba(0,0,0,0.4);backdrop-filter:blur(6px);border-radius:14px;padding:8px 12px;display:flex;gap:8px;align-items:center}
+    nav a{color:var(--accent);text-decoration:none;padding:6px 10px;border-radius:8px;font-weight:600;font-size:14px;transition:background 0.3s}
+    nav a.active, nav a:hover{background:rgba(249,115,22,0.2)}
+
+    section{min-height:100vh;padding:48px;display:flex;align-items:center;justify-content:center;transition:all 0.4s ease;}
+
+    .card{background:var(--card);border-radius:18px;padding:28px;box-shadow:0 6px 30px rgba(0,0,0,0.6);width:900px;max-width:calc(100vw - 120px);backdrop-filter:blur(8px);}
+
+    .profile{display:flex;gap:28px;align-items:center}
+    .avatar{width:160px;height:160px;border-radius:20px;overflow:hidden;flex:0 0 160px;background:#061022;display:grid;place-items:center}
+    .avatar img{width:100%;height:100%;object-fit:cover}
+    .meta h1{margin:0;font-size:26px}
+    .meta p{color:var(--muted);margin-top:8px}
+
+    .tags{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
+    .tag{background:rgba(255,255,255,0.08);padding:6px 10px;border-radius:999px;font-weight:600}
+
+    .columns{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:14px}
+    .project{padding:12px;border-radius:12px;background:rgba(255,255,255,0.05)}
+    .project h3{margin:0 0 6px 0}
+    .project p{margin:0;color:var(--muted);font-size:14px}
+
+    .muted{color:var(--muted)}
+    .section-title{font-size:20px;margin-bottom:12px}
+
+    .download-btn{display:inline-block;margin-top:8px;padding:6px 12px;background:var(--accent);color:#fff;text-decoration:none;border-radius:8px;font-weight:600;transition:background 0.3s}
+    .download-btn:hover{background:#ea580c}
+
+    audio{width:100%;margin-top:8px}
+
+    
+    .timeline{position:relative;margin-top:20px;padding-left:30px;border-left:3px solid var(--accent);}
+    .timeline-entry{margin-bottom:20px;position:relative;padding-left: 15px;}
+    .timeline-entry::before{content:'';position:absolute;left:-10px;top:4px;width:14px;height:14px;border-radius:50%;background:var(--accent);box-shadow:0 0 12px rgba(249,115,22,0.8);}
+    .timeline-entry.old::before{background:#999;box-shadow:none;}
+
+    @media (max-width:900px){
+      .card{width:calc(100vw - 80px)}
+      .columns{grid-template-columns:1fr}
+      .avatar{width:120px;height:120px}
+    }
+  </style>
+</head>
+<body>
+  <video class="bg-video" autoplay muted loop>
+    <source src="trabajitos.mp4" type="video/mp4">
+  </video>
+
+  <nav>
+    <a href="#perfil">Perfil</a>
+    <a href="#gd">GDscript - Godot Engine</a>
+    <a href="#blender">Blender - Blockbench</a>
+    <a href="#lmms">LMMS</a>
+    <a href="#exp">Experiencia</a>
+  </nav>
+
+  <section id="perfil">
+    <div class="card profile">
+      <div class="avatar">
+        <img src="mi_putisimo_careto_chaval.jpg" alt="Foto de perfil">
+      </div>
+      <div class="meta">
+        <h1>Ismael Merlo — Game Developer</h1>
+        <p class="muted">Me diagnosticaron autismo a los 5 años por lo cuál no puedo detectar el sarcasmo, así que este portafolio será lo más directo que hayas leído en tu vida. <br> <br> Vivir en un entorno extremadamente impredecible (Venezuela) me ha hecho tener que aprender de todo, y la falta de presupuesto tener que aprender todos los aspectos de un juego, desde el arte, hasta la programación y la música. <br> <br> PD: Está página web no es responsive pero eso solo demuestra que la abriste desde tu celular y que no te estás tomando mi portafolio con la suficiente seriedad.</p>
+        <div class="tags">
+          <span class="tag">GDScript</span>
+          <span class="tag">Godot Engine</span>
+          <span class="tag">Blender</span>
+          <span class="tag">Blockbench</span>
+          <span class="tag">LMMS</span>
+        </div>
+        <div style="margin-top:18px">
+          <small class="muted">Correo — <a href="mailto:ismaelmerlo05@gmail.com" style="color:var(--accent);text-decoration:underline;">ismaelmerlo05@gmail.com</a></small> <br>
+          <small class="muted">Whatsapp — <a href="https://wa.me/584127869165" style="color:var(--accent);text-decoration:underline;">+584127869165</a></small> <br>
+          <small class="muted">Github — <a href="https://www.github.com/IsmaelMerlo" target="_blank" style="color:var(--accent);text-decoration:underline;">github.com/IsmaelMerlo</a></small>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="gd">
+    <div class="card">
+      <div class="section-title">GDscript — Godot Engine</div>
+      <p class="muted">Unity me enseñó que mantener una arquitectura antigua a largo plazo es igual a mantener una relación tóxica, desgastante y deprimente. Godot es como aquel amor curioso, al que siempre vuelves para aprender algo nuevo, empalagoso, delirante. <br> <br> Salí del Tutorial Hell y empecé a crear juegos serios de verdad. <br> <br> Mi secreto: Leer la documentación. <br> <br> Así fue como creé mi propio estudio de videojuegos <a href="https://www.viremorfe.studio" target="_blank" style="color: #ea580c;">Viremorfe Studios</a>, en el cuál actualmente estoy desarrollando un juego de terror psicológico (como si no fuera suficiente terror ya vivir en Venezuela). <br> </p>
+      <br>
+      <video controls loop style="width:100%;border-radius:12px;margin-bottom:16px">
+        <source src="shadead.mp4" type="video/mp4">
+      </video>
+    </div>
+  </section>
+
+  <section id="blender">
+    <div class="card">
+      <div class="section-title">Blender — Blockbench</div>
+      <div class="columns">
+        <p class="muted">Creo que todos ya sabemos de que va Blender, el programita para 3D, así que hablemos de Blockbench, si hiciera un videojuego tipo voxel esta definitivamente sería mi herramienta preferida, el uv mapping es fantasticamente más sencillo que en Blender y el texturizado es prácticamente hacer pixel art encima de los modelos. <br> <br> Sin embargo hay cosas que sencillamente no puede hacer Blockbench, por mucho que me encante (simulación realista de ropa, por ejemplo) así que lo complemento con Blender. <br> <br> ¿Texturizado?, ¿Modelado?, ¿Esculpido?, ¿VFX? ¿Animación?, ¡Lo tengo!.</p>
+        <div>
+          <h3>Mario RTX</h3>
+          <video controls loop style="width:100%;border-radius:12px">
+            <source src="render_mario.mp4" type="video/mp4">
+          </video>
+          <a href="https://drive.google.com/drive/u/1/folders/1sKfjajUdniQr6cbwZAytIbR4DV3v9B9L" target="_blank" class="download-btn" download>Descargar modelo</a>
+          <p class="muted"> <br>Creado con: Blender</p>
+        </div>
+        <div>
+          <h3>Little Truck</h3>
+          <video controls loop style="width:100%;border-radius:12px">
+            <source src="little_truck.mp4" type="video/mp4">
+          </video>
+          <a href="https://drive.google.com/drive/u/1/folders/1C0Zof0LPfUXeNaZuqtlVVFh05KasglTh" target="_blank" class="download-btn" download>Descargar modelo</a>
+          <p class="muted"> <br>Creado con: Blockbench</p>
+        </div>
+        <div>
+          <h3>Apocalyptic House</h3>
+          <img src="apocalyptic_house.png" alt="Apocalyptic House" style="width:100%;border-radius:12px">
+          <a href="https://drive.google.com/drive/u/1/folders/1qobQfGIi4TQpzOXBCiGH0fuB7cndIeg-" target="_blank" class="download-btn" download>Descargar modelo</a>
+          <p class="muted"> <br>Creado con: Blender</p>
+        </div>
+        <div>
+          <h3>Hornet Low-Poly</h3>
+          <img src="hornet_low_poly.gif" alt="Hornet Low Poly" style="width:100%;border-radius:12px">
+          <a href="https://drive.google.com/drive/folders/1t-FYb1wRPYek-4-wEG1mGgxEM6_hbejD" target="_blank" class="download-btn" download>Descargar modelo</a>
+          <p class="muted"> <br>Creado con: Blockbench</p>
+        </div>
+        <div>
+          <h3>Happy Three Cats</h3>
+          <img src="happy_three_cats.gif" alt="Happy Three Cats" style="width:100%;border-radius:12px">
+          <a href="https://drive.google.com/drive/folders/1VivRi4UGUlFJcdk2N82aZhclDlza5nRl" target="_blank" class="download-btn" download>Descargar modelo</a>
+          <p class="muted"> <br>Creado con: Blockbench</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="lmms">
+    <div class="card">
+      <div class="section-title">LMMS</div>
+      <div class="columns">
+        <p class="muted">Intenté FLstudio pero luego me di cuenta que era una herramienta para satisfacer a un sistema educativo desfasado, así que me quedé con LMMS con el cuál no tenía que pasar un semestre entero para saberlo usar. Todo lo que escuchas aquí lo hice en LMMS.</p>
+        <div>
+          <h3>Discusión</h3>
+          <audio controls>
+            <source src="Discusión.wav" type="audio/wav">
+          </audio>
+        </div>
+        <div>
+          <h3>Void</h3>
+          <audio controls>
+            <source src="Void.wav" type="audio/wav">
+          </audio>
+        </div>
+        <div>
+          <h3>Holy</h3>
+          <audio controls>
+            <source src="Holy.wav" type="audio/wav">
+          </audio>
+        </div>
+        <div>
+          <h3>Space Insanity</h3>
+          <audio controls>
+            <source src="space_insanity.wav" type="audio/wav">
+          </audio>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<section id="exp">
+  <div class="card">
+    <div class="section-title">Experiencia</div>
+    <div class="timeline">
+      <div class="timeline-entry">
+        <strong>2025 — Presente:</strong>
+        <div>
+          <span><b>Empresa:</b> <a href="https://www.viremorfe.studio" target="_blank" style="color:var(--accent);text-decoration:underline;">Viremorfe Studios</a></span><br>
+          <span><b>Cargo:</b> Fundador y Director</span> <br>
+          <span><b>Descripción:</b> Actualmente estoy más empeñado en mis propios proyectos que en otras cosas, mientras que hago trabajitos freelance para no morir de hambre, sin embargo estoy abierto a cualquier tipo de colaboración.</span>
+        </div>
+      </div>
+      <div class="timeline-entry old">
+        <strong>2024 — 2025:</strong>
+        <div>
+          <span><b>Empresa:</b> <a href="https://credismart.co" target="_blank" style="color:var(--accent);text-decoration:underline;">Credismart</a></span><br>
+          <span><b>Cargo:</b> Analista de soporte IT</span> <br>
+          <span><b>Descripción:</b> Trabaje resolviendole las dudas a un montón de colombianos y administrando bases de datos, y encima eran de PHP, mi odio a PHP ha llegado a niveles galácticos.</span>
+        </div>
+      </div>
+      <div class="timeline-entry old">
+        <strong>2024 — 2024:</strong>
+        <div>
+          <span><b>Empresa:</b> <a href="https://paramlabs.io" target="_blank" style="color:var(--accent);text-decoration:underline;">Paramlabs</a></span><br>
+          <span><b>Cargo:</b> Programador de UIs en Godot Engine</span> <br>
+          <span><b>Descripción:</b> Trabaje en algo que realmente me gustaba, el problema, el ambiente, gambling, abuso a clientes, y el contrato solo era de 3 meses, sin embargo no me puedo quejar, aprendí bastante de UIs en Godot y la paga era buena, pero creo que jamás volveré a participar en un ambiente laboral que contenga gambling.</span>
+        </div>
+      </div>
+      <div class="timeline-entry old">
+        <strong>2023 — 2024:</strong>
+        <div>
+          <span><b>Empresa:</b> <a href="https://www.tatticaweb.it" target="_blank" style="color:var(--accent);text-decoration:underline;">Tattica Web</a></span><br>
+          <span><b>Cargo:</b> Programador de Plugins en PHP para Wordpress</span> <br>
+          <span><b>Descripción:</b> Aquí fue dónde mi odio hacia PHP comenzó, Wordpress es una herramienta poderosa, pero la forma en que está construido PHP es simplemente horrible, lento y deprimente, hubiera preferido hacerlo en GDscript.</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <script>
+    const links = document.querySelectorAll('nav a');
+    const sections = Array.from(document.querySelectorAll('section'));
+    function updateActive(){
+      let idx = 0;
+      const pos = window.scrollY + window.innerHeight/2;
+      sections.forEach((s,i)=>{
+        if(pos >= s.offsetTop) idx = i;
+      });
+      links.forEach(l=>l.classList.remove('active'));
+      if(links[idx]) links[idx].classList.add('active');
+    }
+    window.addEventListener('scroll', updateActive);
+    updateActive();
+  </script>
+</body>
+</html>
